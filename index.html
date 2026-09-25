@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-commerce</title>
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header-section -->
+  <header>
+    <nav>
+      <div class="c-name">
+        <a href="index.html"><p>Exclusive</p></a>
+      </div>
+      <div class="navigations-links">
+        <ul>
+          <a href="#"><li class="active">Home</li></a>
+          <a href="#"><li>Products</li></a>
+          <a href="#"><li>About</li></a>
+          <a href="#"><li>Contact</li></a>
+        </ul>
+      </div>
+      <div class="into-web">
+        <div class="search-bar">
+          <input placeholder="Search products" type="text" name="search-bar" id="search-bar">
+          <div class="s-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#00000"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+          </div>
+        </div>
+        <div class="cart-div">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+          </div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M223.5-103.5Q200-127 200-160t23.5-56.5Q247-240 280-240t56.5 23.5Q360-193 360-160t-23.5 56.5Q313-80 280-80t-56.5-23.5Zm400 0Q600-127 600-160t23.5-56.5Q647-240 680-240t56.5 23.5Q760-193 760-160t-23.5 56.5Q713-80 680-80t-56.5-23.5ZM246-720l96 200h280l110-200H246Zm-38-80h590q23 0 35 20.5t1 41.5L692-482q-11 20-29.5 31T622-440H324l-44 80h480v80H280q-45 0-68-39.5t-2-78.5l54-98-144-304H40v-80h130l38 80Zm134 280h280-280Z"/></svg>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="slider-section">
+      <div class="drop-down-section">
+        <!-- The HTML Structure -->
+        <p>Men's fashion</p>
+        <p>Mobile's</p>
+        <p>Sports and Outdoors</p>
+        <p>Medicine</p>
+        <p>Toys and Baby's</p>
+        <p>Pets and Fashion</p>
+        <p>Health and Beauty</p>
+        <p>Home and Lifestyles</p>
+      </div>
+      <!-- Slider main container -->
+      <div style="margin-top: 2rem;" class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img style="width: 100%; height: 100%;" src="slider-images/s-11.jpg" alt=""></div>
+          <div class="swiper-slide"><img style="width: 100%; height: 100%;" src="slider-images/s-12.jpg" alt=""></div>
+          <div class="swiper-slide"><img style="width: 100%; height: 100%;" src="slider-images/s-13.jpg" alt=""></div>
+          <div class="swiper-slide"><img style="width: 100%; height: 100%;" src="slider-images/s-14.jpg" alt=""></div>
+          <div class="swiper-slide"><img style="width: 100%; height: 100%;" src="slider-images/s-15.jpg" alt=""></div>
+          <div class="swiper-slide"><img style="width: 100%; height: 100%;" src="slider-images/s-16.jpg" alt=""></div>
+          <div class="swiper-slide"><img style="width: 100%; height: 100%;" src="slider-images/s-17.jpg" alt=""></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+      </div>
+    </section>
+
+    <section class="flash-sales-section">
+      <div class="date-information-container">
+        <div class="today-dates">
+          <div class="empty-div"></div>
+          <div><p>Today's</p></div>
+        </div>
+        <div class="sales-container">
+          <div class="flash-sales"><h2>Flash Sales</h2></div>
+          <div class="times">
+            <div class="dates-divs"> <div class="time-divs"><p>Days</p></div> <div class="date"><h2>12</h2> <h2>:</h2></div> </div>
+            <!-- <div><h2>:</h2></div> -->
+            <div class="dates-divs"> <div class="time-divs"><p>Hours</p></div> <div class="date"><h2>03</h2> <h2>:</h2></div> </div>
+            <!-- <div><h2>:</h2></div> -->
+            <div class="dates-divs"> <div class="time-divs"><p>Minutes</p></div> <div class="date"><h2>23</h2> <h2>:</h2></div> </div>
+            <!-- <div><h2>:</h2></div> -->
+            <div class="dates-divs"> <div class="time-divs"><p>Seconds</p></div> <div class="date"><h2>00</h2></div> </div>
+          </div>
+          <div class="arrows">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M400-240 160-480l240-240 56 58-142 142h486v80H314l142 142-56 58Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="M400-240 160-480l240-240 56 58-142 142h486v80H314l142 142-56 58Z"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="sales-products-container">
+        <div class="product-card">
+          <div class="product-image">
+            <img height="130px" src="images/img-3.png" alt="product-image">
+          </div>
+          <div class="product-details">
+            <div class="product-name"><p>High-end custom pc</p></div>
+            <div class="price"><p>$500</p><p>$600</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img height="130px" src="images/img-6.png" alt="product-image">
+          </div>
+          <div class="product-details">
+            <div class="product-name"><p>Power custom build for 4k gaming</p></div>
+            <div class="price"><p>$800</p><p>$1000</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img height="130px" src="images/img-5.png" alt="product-image">
+          </div>
+          <div class="product-details">
+            <div class="product-name"><p>Gaming machine for lovers</p></div>
+            <div class="price"><p>$700</p><p>$800</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img height="130px" src="images/img-6.png" alt="product-image">
+          </div>
+          <div class="product-details">
+            <div class="product-name"><p>High-end custom pc</p></div>
+            <div class="price"><p>$500</p><p>$600</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img height="130px" src="images/img-2.png" alt="product-image">
+          </div>
+          <div class="product-details">
+            <div class="product-name"><p>High-end custom pc</p></div>
+            <div class="price"><p>$500</p><p>$600</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img height="130px" src="images/img-4.png" alt="product-image">
+          </div>
+          <div class="product-details">
+            <div class="product-name"><p>Ultra buget gaming machine support multitasking</p></div>
+            <div class="price"><p>$1000</p><p>$1200</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img height="130px" src="images/img-5.png" alt="product-image">
+          </div>
+          <div class="product-details">
+            <div class="product-name"><p>High-end custom pc</p></div>
+            <div class="price"><p>$500</p><p>$600</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="all-products">
+        <p>View all products</p>
+      </div>
+    </section>
+
+    <section class="browse-by-categories-section">
+      <div class="browse">
+        <div>
+          <div class="empty-div"></div>
+          <div><p>Categories</p></div>
+        </div>
+        <div class="categories">
+          <p>Browse By Categories</p>
+        </div>
+      </div>
+
+      <div class="browse-cards">
+        <div class="active-category"><p>Computers</p></div>
+        <div><p>Phones</p></div>
+        <div><p>Cameras</p></div>
+        <div><p>Smart watches</p></div>
+        <div><p>Laptops</p></div>
+        <div><p>Gaming</p></div>
+      </div>
+    </section>
+
+    <section class="best-selling-products-section">
+      <div class="best-selling">
+        <div class="month">
+          <div class="empty-div"></div>
+          <div><p>This Month</p></div>
+        </div>
+        <div class="selling">
+          <div><p>Best Selling Products</p></div>
+          <div><p>View All</p></div>
+        </div>
+      </div>
+
+      <div class="best-selling-products-container">
+        <div class="best-product-card">
+          <div class="best-product-image">
+            <img height="130px" src="images/img-3.png" alt="product-image">
+          </div>
+          <div class="best-product-details">
+            <div class="product-name"><p>High-end custom pc</p></div>
+            <div class="price"><p>$500</p><p>$600</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="best-product-card">
+          <div class="best-product-image">
+            <img height="130px" src="images/img-2.png" alt="product-image">
+          </div>
+          <div class="best-product-details">
+            <div class="product-name"><p>High-end custom pc for 4k gaming </p></div>
+            <div class="price"><p>$500</p><p>$600</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="best-product-card">
+          <div class="best-product-image">
+            <img height="130px" src="images/img-4.png" alt="product-image">
+          </div>
+          <div class="best-product-details">
+            <div class="product-name"><p>Custom pc bulid for multitasking work</p></div>
+            <div class="price"><p>$500</p><p>$600</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="best-product-card">
+          <div class="best-product-image">
+            <img height="130px" src="images/img-5.png" alt="product-image">
+          </div>
+          <div class="best-product-details">
+            <div class="product-name"><p>High-end custom pc</p></div>
+            <div class="price"><p>$500</p><p>$600</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+        <div class="best-product-card">
+          <div class="best-product-image">
+            <img height="130px" src="images/img-6.png" alt="product-image">
+          </div>
+          <div class="best-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="price"><p>$500</p><p>$600</p></div>
+            <div class="rating"><p>Rating</p><p>(4.9)</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="big-card-image">
+        <div class="exp">
+          <p style="color: rgb(7, 255, 7);">Categories</p>
+          <p style="font-size: 2rem; letter-spacing: 1px; color: white;">Enhance Your Choice Experience</p>
+        </div>
+
+        <div class="buy-now">
+          <div class="buy-date">
+            <div style="padding: 1.6rem 1.5rem;"><p>23</p><p>Hours</p></div>
+            <div style="padding: 1.6rem 1.7rem;"><p>06</p><p>Days</p></div>
+            <div><p>89</p><p>Minutes</p></div>
+            <div><p>08</p><p>Seconds</p></div>
+          </div>
+
+          <div class="buy"><p>Buy Now</p></div>  
+        </div>
+
+      </div>
+    </section>
+
+    <section class="our-products-section">
+      <div class="our-products">
+        <div class="product-label">
+          <div class="our-empty"></div>
+          <div><p>Our Products</p></div>
+        </div>
+
+        <div class="explore-product">
+          <div class="explore"><p>Explore Our Products</p></div>
+        </div>
+
+      </div>
+
+      <div class="our-product-grid">
+        <div class="best-product-card our-product-card">
+          <div class="our-product-image">
+            <img height="130px" src="images/img-6.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="best-product-card our-product-card">
+          <div class="our-product-images our-product-image">
+            <img height="130px" src="images/img-4.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="best-product-card our-product-card">
+          <div class="our-product-image">
+            <img height="130px" src="images/img-2.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="best-product-card our-product-card">
+          <div class="our-product-images our-product-image">
+            <img height="130px" src="images/img-6.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="best-product-card our-product-card">
+          <div class=" our-product-image">
+            <img height="130px" src="images/img-2.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="best-product-card our-product-card">
+          <div class="our-product-images our-product-image">
+            <img height="130px" src="images/img-5.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="best-product-card our-product-card">
+          <div class="our-product-image">
+            <img height="130px" src="images/img-2.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="best-product-card our-product-card">
+          <div class="our-product-images our-product-image">
+            <img height="130px" src="images/img-2.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="best-product-card our-product-card">
+          <div class=" our-product-image">
+            <img height="130px" src="images/img-3.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+        <div class="best-product-card our-product-card">
+          <div class="our-product-images our-product-image">
+            <img height="130px" src="images/img-4.png" alt="product-image">
+          </div>
+          <div class="our-product-details">
+            <div class="product-name"><p>Asus gaming machine for ultra graphics</p></div>
+            <div class="our-price">
+              <div><p>$500</p></div>
+              <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" />
+                <label for="star5" title="5 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star4" name="rating" value="4" />
+                <label for="star4" title="4 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star3" name="rating" value="3" />
+                <label for="star3" title="3 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star2" name="rating" value="2" />
+                <label for="star2" title="2 stars">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              
+                <input type="radio" id="star1" name="rating" value="1" />
+                <label for="star1" title="1 star">
+                  <svg viewBox="0 0 24 24"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+                </label>
+              </div>
+              
+              <div><p>(4.9)</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="all-products"><p>View all products</p></div>
+
+    </section>
+
+    <section class="new-arival-section">
+      <div class="our-products">
+        <div class="product-label">
+          <div class="our-empty"></div>
+          <div><p>Featured</p></div>
+        </div>
+
+        <div class="explore-product">
+          <div class="explore"><p>New Arivals</p></div>
+        </div>
+
+      </div>
+        
+      <div class="bento-grid">
+        <div style="background-color: black; color: white; grid-area: img-1;"><img height="100%" width="100%" src="images/t-1.jpeg" alt="images"></div>
+        <div style="background-color: black; color: white; grid-area: img-2;"><img style="object-fit: cover;" height="100%" width="100%" src="images/t-3.jpeg" alt="images"></div>
+        <div style="background-color: black; color: white; grid-area: img-3;"><img height="100%" width="100%" src="images/t-1.jpeg" alt="images"></div>
+        <div style="background-color: black; color: white; grid-area: img-4;"><img height="100%" width="100%" src="images/t-4.jpeg" alt="images"></div>
+      </div>
+
+      <div class="arrivals-warranty">
+        <div class="delivery">
+          <div class="van-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M155-235q-35-35-35-85H40v-360q0-33 23.5-56.5T120-760h560l240 240v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35q-50 0-85-35Zm445-325h160L640-680h-40v120Zm-240 0h160v-120H360v120Zm-240 0h160v-120H120v120Zm155.5 275.5Q290-299 290-320t-14.5-35.5Q261-370 240-370t-35.5 14.5Q190-341 190-320t14.5 35.5Q219-270 240-270t35.5-14.5Zm480 0Q770-299 770-320t-14.5-35.5Q741-370 720-370t-35.5 14.5Q670-341 670-320t14.5 35.5Q699-270 720-270t35.5-14.5ZM120-400h32q17-18 39-29t49-11q27 0 49 11t39 29h304q17-18 39-29t49-11q27 0 49 11t39 29h32v-80H120v80Zm720-80H120h720Z"/></svg>
+          </div>
+          <div class="description">
+            <p>Free and fast delivery</p>
+            <p>Free delivery for all items </p>
+          </div>
+        </div>
+
+        <div class="delivery">
+          <div class="van-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M480-40v-80h280v-40H600v-320h160v-40q0-116-82-198t-198-82q-116 0-198 82t-82 198v40h160v320H200q-33 0-56.5-23.5T120-240v-280q0-74 28.5-139.5T226-774q49-49 114.5-77.5T480-880q74 0 139.5 28.5T734-774q49 49 77.5 114.5T840-520v400q0 33-23.5 56.5T760-40H480ZM200-240h80v-160h-80v160Zm480 0h80v-160h-80v160ZM200-400h80-80Zm480 0h80-80Z"/></svg>
+          </div>
+          <div class="description">
+            <p>24/7 Customer service</p>
+            <p>Freindly 24/7 customer support </p>
+          </div>
+        </div>
+
+        <div class="delivery">
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M200-280v-280h80v280h-80Zm240 0v-280h80v280h-80ZM80-640v-80l400-200 400 200v80H80Zm179-80h442L480-830 259-720ZM80-120v-80h482q2 21 5 40.5t9 39.5H80Zm600-310v-130h80v90l-80 40ZM800 0q-69-17-114.5-79.5T640-218v-102l160-80 160 80v102q0 76-45.5 138.5T800 0Zm-29-120 139-138-42-42-97 95-39-39-42 43 81 81ZM259-720h442-442Z"/></svg>
+          </div>
+          <div class="description">
+            <p>100% Cashback Gurantee</p>
+            <p>We return money within 30 days</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="links">
+      <div class="div">
+      <p style="font-size: 1.2rem; font-weight: 600;">Exclusive</p>
+      <p style="font-size: unset; font-weight: 500;">Subscribe</p>
+      <p>Get's 10% off on yur first order</p>
+      <div class="email-d">
+        <div>
+          <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+        <div class="svg">
+          <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z"/></svg>
+        </div>
+       </div>
+    </div>
+    <div class="div">
+      <p>Products</p>
+      <p>Pcs</p>
+      <p>Laptops</p>
+      <p>Custom Builds</p>
+      <p>Phones</p>
+      <p>Printer</p>
+    </div>
+    <div class="div">
+      <p>Account</p>
+      <p>Login</p>
+      <p>Sign in / Sign up</p>
+      <p>Cart</p>
+      <p>Shop</p>
+      <p>Wishlist</p>
+    </div>
+    <div class="div">
+      <p>Quick link</p>
+      <p>Terms of use</p>
+      <p>Privacy Terms</p>
+      <p>Contact</p>
+      <p>Faq</p>
+    </div>
+    <div class="div">
+      <p>Download App</p>
+      
+    </div>
+    </div>
+    
+    <div class="copy-right">
+      <p>(c) Copyright 2026. All right Reserved</p>
+    </div>
+
+  </footer>
+
+</body>
+</html>
