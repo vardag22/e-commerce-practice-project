@@ -1,4 +1,61 @@
 
+/* MAIN-CONTENT */
+
+main{
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Slider-Section */
+.slider-section{
+  column-gap: 1rem;
+  display: flex;
+  margin-top: 0rem;
+}
+
+.swiper {
+  width: 70%;
+  height: 300px;
+}
+
+.drop-down-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-right: 1px solid rgba(128, 128, 128, 0.432);
+  padding: 2rem 3rem 0 0;
+  color: rgba(29, 28, 28, 0.815);
+  font-size: 0.9rem;
+
+  p{
+    transition: .40s ease;
+  }
+
+  p:hover{
+    cursor: pointer;
+    color: rgb(2, 2, 2);
+  }
+}
+.dropdown-menu-content {
+  background: #f8f9fa;
+  border-top: none;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 6px 12px;
+  color: #333333b2;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.dropdown-item:hover {
+  background: #e9ecef;
+}
+
+
+/* SLIDER CAROUSAL SECTION */
 .slider-carousal{
   display: flex;
   align-items: center;
@@ -49,19 +106,15 @@
 
 .date-information-container{
   display: inline-flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   row-gap: 1.5rem;
   flex-direction: column; 
   justify-content: flex-start;
 }
 
 .today-dates{
-  /* background-color: rgba(0, 0, 255, 0.329); */
   display: inline-flex;
   color: rgba(255, 5, 26, 0.959);
   align-items: center;
-  /* justify-content: center; */
   column-gap: 1.3rem;
   font-size: 1.1rem;
   font-weight: 600;
@@ -75,7 +128,6 @@
 }
 
 .sales-container{
-  /* background-color: rgba(0, 128, 0, 0.377); */
   display: flex;
   column-gap: 3rem;
   align-items: flex-end;
@@ -105,8 +157,6 @@
 
 .dates-divs{
   display: inline-flex;
-  /* align-items: center;
-  justify-content: center; */
   flex-direction: column;
   row-gap: 0.2rem;
 }
@@ -124,7 +174,6 @@
   overflow-x: auto;
   width: 100%;
   scrollbar-width: none;
-  /* grid-template-columns: repeat(auto-fit, minmax(170px, 1fr) ); */
   column-gap: 1rem;
 }
 
@@ -147,7 +196,6 @@
   border-radius: 5px;
   padding: 1.8rem 1.2rem 3rem 1.2rem;
   width: 200px;
-  /* background-color: rebeccapurple; */
   position: relative;
 
   img{

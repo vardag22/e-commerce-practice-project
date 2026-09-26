@@ -1,0 +1,44 @@
+aside{
+  display: none;
+  flex-direction: column;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  left: -100%;
+  bottom: 0;
+  width: 70%;
+  height: 100vh;
+  background-color: white;
+  z-index: 1100;
+  transition: 0.40s ease;
+}
+
+.show{
+  left: 0;
+}
+
+aside div:first-child{
+ display: flex;
+ /* padding-top: 1.8rem; */
+ justify-content: flex-end;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+}
+
+.links ul{
+  display: flex;
+  flex-direction: column;
+  
+  row-gap: 1.4rem;
+}
+
+.links ul a::after{
+  bottom: -8px;
+}
+
+.active-link::after{
+  bottom: -8px;
+} 

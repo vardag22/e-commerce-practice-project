@@ -1,6 +1,14 @@
 /* MEDIA QURIES FOR RESPOSIVENESS*/
 @media(max-width: 920px)
 {
+
+  aside{
+    display: flex;
+  }
+  .show-icon svg{
+    display: flex;
+  }
+
   .swiper{
     justify-content: flex-start;
     width: 100%;
@@ -32,8 +40,28 @@
 
 @media(max-width: 750px)
 {
+
+  aside{
+    width: 80%;
+  }
+
+  .mobile-search-bar{
+    display: flex;
+    width: 100%;
+  }
+
+  .mobile-search-bar input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    border: 1px solid rgba(128, 128, 128, 0.568);
+    padding: 0.8rem 0.7rem ;
+    flex: 1;
+
+  }
+
   nav{
-    padding-bottom: 1rem;
+    padding-bottom: 0.2rem;
   }
   .bento-grid{
     grid-template-columns:  1fr;
@@ -42,8 +70,12 @@
     grid-template-areas: "img-1" "img-2" "img-3" "img-4";
   }
 
-  header, .slider-section, .flash-sales-section, .browse-by-categories-section, .best-selling-products-section, .our-products-section, .new-arival-section{
+   .slider-section, .flash-sales-section, .browse-by-categories-section, .best-selling-products-section, .our-products-section, .new-arival-section{
     padding: 1rem;
+  }
+
+  header{
+    padding: 0.5rem 1rem;
   }
   
   .sales-container{
@@ -71,7 +103,6 @@
     }
 
     .big-card-image{
-      /* padding: 1rem 0 1rem 1rem ; */
       padding: 1rem;
     }
 
@@ -84,7 +115,7 @@
       display: none;
     }
 
-    .s-icon{
+    .search-bar .s-icon{
       display: none;
     }
 
