@@ -2,7 +2,7 @@ const swiper = new Swiper(".swiper", {
   // Change 'vertical' to 'horizontal' (or delete this line entirely)
   direction: "horizontal",
 
-  // Your other configuration settings...
+  // Other configuration settings...
   loop: true,
   pagination: {
     el: ".swiper-pagination",

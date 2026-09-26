@@ -1,0 +1,24 @@
+/* Universal styling */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+}
+
+body{
+  min-height: 100vh;
+}
+
+header, .slider-section, .flash-sales-section, .browse-by-categories-section, .best-selling-products-section, .our-products-section, .new-arival-section{
+  padding: 0 4rem 0 4rem;
+}
+
+.slider-section, .flash-sales-section, .browse-by-categories-section, .best-selling-products-section, .our-products-section, .new-arival-section{
+  width: 100%;
+}

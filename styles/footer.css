@@ -1,0 +1,80 @@
+footer{
+  display: grid;
+  row-gap: 2rem;
+  background-color: black;
+  padding: 3rem 4rem 0 4rem;
+}
+
+.div a{
+  color: unset;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.links{
+  display: flex;
+  align-items: self-start;
+  justify-content: space-around;
+  color: white;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+footer .div{
+  display: inline-flex;
+  flex-direction: column;
+  row-gap: 0.8rem;
+
+  p{
+    font-size: 0.8rem;
+  }
+}
+
+footer div p:first-child{
+  margin-bottom: 0.9rem;
+  font-weight: 500;
+  font-size: unset;
+}
+
+footer input{
+  background: black;
+  outline: none;
+  border: 1px solid gray;
+  padding: 0.7rem;
+  height: 45px;
+  border-radius: 3px;
+  color: white;
+  border-right: unset;
+  border-top-right-radius: unset;
+  border-bottom-right-radius: unset;
+}
+
+.email-d{
+  display: flex;
+  align-items: center;
+}
+
+.svg {
+  height: 45px;
+  border: 1px solid gray;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-left: none;
+  display: grid;
+  place-items: center;
+  padding: 0 0.5rem;
+
+  svg{
+    fill: rgb(228, 228, 228);
+  }
+}
+
+.copy-right{
+  display: grid;
+  place-items: center;
+  color: gray;
+  font-size: 0.8rem;
+  border-top: 1px solid rgba(211, 211, 211, 0.11);
+  padding-top: 1rem;
+}
+
