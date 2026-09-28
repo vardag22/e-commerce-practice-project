@@ -1,0 +1,31 @@
+@media(max-width: 920px)
+{
+  .navigations-links{
+    display: none;
+  }
+}
+
+@media(max-width: 753px)
+{
+  .wish-list-section{
+    margin-top: 0.6rem;
+  }
+
+  .wish-list-grid, .for-you-products-grid{
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    column-gap: 0.6rem;
+    row-gap: 1rem;
+  }
+
+  header{
+    padding: 0.8rem 1rem;
+  }
+
+  nav{
+    padding-bottom: 0.2rem;
+  }
+
+  .wish-list-section, .for-you-section{
+    padding: 0.8rem;
+  }
+}

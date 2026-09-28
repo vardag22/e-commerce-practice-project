@@ -13,6 +13,7 @@ html{
 
 body{
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 header, .slider-section, .flash-sales-section, .browse-by-categories-section, .best-selling-products-section, .our-products-section, .new-arival-section{

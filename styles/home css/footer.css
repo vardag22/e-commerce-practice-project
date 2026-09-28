@@ -11,7 +11,7 @@ footer{
   font-size: 0.8rem;
 }
 
-.links{
+.footer-links{
   display: flex;
   align-items: self-start;
   justify-content: space-around;
@@ -23,7 +23,7 @@ footer{
 footer .div{
   display: inline-flex;
   flex-direction: column;
-  row-gap: 0.8rem;
+  row-gap: 0.3rem;
 
   p{
     font-size: 0.8rem;
