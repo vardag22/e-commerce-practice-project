@@ -3,6 +3,12 @@
   .navigations-links{
     display: none;
   }
+
+  .footer-links{
+    justify-content: flex-start;
+    row-gap: 2rem;
+  }
+
 }
 
 @media(max-width: 753px)
@@ -27,5 +33,21 @@
 
   .wish-list-section, .for-you-section{
     padding: 0.8rem;
+  }
+
+  .l-footer{
+    padding: 2rem 0.8rem;
+  }
+
+  .bold-text{
+    margin-bottom: 0.2rem;
+  }
+
+}
+
+@media(max-width: 520px)
+{
+  .footer-links{
+    flex-direction: column;
   }
 }

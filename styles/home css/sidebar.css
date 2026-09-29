@@ -13,6 +13,18 @@ aside{
   transition: 0.40s ease;
 }
 
+.overlay{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(78, 78, 78, 0.219);
+  height: 100vh;
+  z-index: 1099;
+  left: -100%;
+  transition: 0.40s ease;
+}
+
 .show{
   left: 0;
 }

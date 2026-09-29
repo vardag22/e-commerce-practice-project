@@ -2,13 +2,24 @@
 const showIcon = document.querySelector('.show');
 const hideIcon = document.querySelector('.hide');
 const sideBar = document.querySelector('.side-bar');
+const overlay = document.querySelector(".overlay");
 
 showIcon.addEventListener('click', () => {
   sideBar.classList.add('show');
+  overlay.classList.add('show')
 })
 
 hideIcon.addEventListener('click', () => {
   sideBar.classList.remove('show');
+  overlay.classList.remove("show");
+})
+
+overlay.addEventListener('click', () => {
+  if (sideBar.classList.contains('show'))
+  {
+    overlay.classList.remove('show');
+    sideBar.classList.remove('show');
+  }
 })
 
 const sliderWrapper = document.querySelector('.slider-wrapper');

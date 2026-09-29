@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation - E-Commerce HTML Template</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 40px 20px; background: #f9f9f9; }
+        header { border-bottom: 2px solid #eaeaea; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: #111; margin-bottom: 5px; }
+        h2 { color: #2c3e50; border-bottom: 1px solid #ddd; padding-bottom: 8px; margin-top: 40px; }
+        code { background: #f1f1f1; padding: 2px 6px; border-radius: 4px; font-family: monospace; font-size: 14px; }
+        pre { background: #2d3748; color: #fff; padding: 15px; border-radius: 6px; overflow-x: auto; font-family: monospace; }
+        .folder-tree { font-family: monospace; background: #fff; padding: 15px; border: 1px solid #ddd; border-radius: 6px; }
+        .note { background: #fff3cd; border-left: 4px solid #ffc107; padding: 15px; margin: 20px 0; border-radius: 0 6px 6px 0; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>E-Commerce Frontend Template Documentation</h1>
+    <p>Thank you for purchasing our template. If you have any questions, please contact support.</p>
+</header>
+
+<section>
+    <h2>1. Folder Structure</h2>
+    <p>Extract the ZIP package. You will find the following clean directory structure:</p>
+    <div class="folder-tree">
+        ├── index.html &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Main Homepage<br>
+        ├── products.html &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Products Catalog / Grid Page<br>
+        ├── documentation.html &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# This guide file<br>
+        ├── css/<br>
+        │   ├── main.css &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Core layout and base settings<br>
+        │   ├── components.css &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Navbar, Footer, Buttons, and Cards<br>
+        │   └── responsive.css &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Media queries for mobile/tablet optimization<br>
+        ├── js/<br>
+        │   ├── products.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Script handling dynamic product grid rendering<br>
+        │   └── main.js &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# UI interactions (slider, menus, countdowns)<br>
+        └── assets/<br>
+            └── images/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Commercially licensed placeholder graphics
+    </div>
+</section>
+
+<section>
+    <h2>2. Managing and Adding Products</h2>
+    <p>Products are generated dynamically using JavaScript for better optimization. To add, edit, or remove products, open <code>js/products.js</code> and update the product array structure:</p>
+    <pre>
+// Example Product Object in js/products.js
+{
+    id: 1,
+    title: "High-end Custom PC",
+    price: 500,
+    oldPrice: 600,
+    rating: 4.9,
+    image: "assets/images/product-pc.jpg"
+}</pre>
+</section>
+
+<section>
+    <h2>3. Customizing Colors & Fonts</h2>
+    <p>Global branding elements like primary theme colors are managed inside <code>css/main.css</code>. Simply change the CSS root variables to match your brand style:</p>
+    <pre>
+:root {
+    --primary-color: #db4444;    /* Main action color */
+    --text-dark: #111111;        /* Headers and title text */
+    --bg-light: #f9f9f9;         /* Section backgrounds */
+}</pre>
+</section>
+
+<div class="note">
+    <strong>Note on Images:</strong> All images included in this template are sourced from free stock repositories (Unsplash/Pexels) and are strictly for preview purposes. Remember to upload your compressed web-ready images under <code>assets/images/</code>.
+</div>
+
+</body>
+</html>
