@@ -2,7 +2,7 @@ footer{
   display: grid;
   row-gap: 2rem;
   background-color: black;
-  padding: 3rem 4rem 0 4rem;
+  padding: 3rem 4rem 0.5rem 4rem;
 }
 
 .div a{
@@ -12,13 +12,10 @@ footer{
 }
 
 .footer-links{
-  display: flex;
-  align-items: self-start;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   color: white;
-  flex-wrap: wrap;
-  gap: 2.5rem;
-  column-gap: 3rem;
+  gap: 2.8rem;
 }
 
 footer .div{
@@ -30,10 +27,6 @@ footer .div{
   p{
     font-size: 0.8rem;
   }
-}
-
-footer div:first-child{
-  row-gap: 1rem;
 }
 
 .bold-text{

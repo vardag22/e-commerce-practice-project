@@ -12,13 +12,10 @@
 }
 
 .footer-links{
-  display: flex;
-  align-items: self-start;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
   color: white;
-  flex-wrap: wrap;
-  gap: 2.5rem;
-  column-gap: 1rem;
+  gap: 2.8rem;
 }
 
 .l-footer .div{

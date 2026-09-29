@@ -7,42 +7,42 @@ const bestSellingProducts = [
     price: 500,
     originalPrice: 600,
     rating: 4.9,
-    image: "images/img-3.png",
+    image: "assets/product-images/img-3.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     originalPrice: 600,
     rating: 4.9,
-    image: "images/img-4.png",
+    image: "assets/product-images/img-4.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     originalPrice: 600,
     rating: 4.9,
-    image: "images/img-5.png",
+    image: "assets/product-images/img-5.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     originalPrice: 600,
     rating: 4.9,
-    image: "images/img-5.png",
+    image: "assets/product-images/img-5.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     originalPrice: 600,
     rating: 4.9,
-    image: "images/img-4.png",
+    image: "assets/product-images/img-4.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     originalPrice: 600,
     rating: 4.9,
-    image: "images/img-3.png",
+    image: "assets/product-images/img-3.png",
   }
 ];
 
@@ -51,7 +51,7 @@ bestSellingProducts.forEach(product => {
   bestSellingProductsGrid.innerHTML += `
     <div class="best-product-card">
       <div class="best-product-image">
-        <img height="130px" src="${product.image}" alt="product-image">
+        <img loading="lazy" height="130px" src="${product.image}" alt="product-image">
         <div class="add-to-cart-label"><p>Add to cart</p></div>
       </div>
       <div class="best-product-details">
@@ -70,62 +70,62 @@ const exploreOurProducts = [
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     rating: 4.9,
-    image: "images/img-2.png",
+    image: "assets/product-images/img-2.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 900,
     rating: 4.9,
-    image: "images/img-5.png",
+    image: "assets/product-images/img-5.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 800,
     rating: 4.9,
-    image: "images/img-3.png",
+    image: "assets/product-images/img-3.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     rating: 4.9,
-    image: "images/img-4.png",
+    image: "assets/product-images/img-4.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 300,
     rating: 4.9,
-    image: "images/img-5.png",
+    image: "assets/product-images/img-5.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     rating: 4.9,
-    image: "images/img-6.png",
+    image: "assets/product-images/img-6.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     rating: 4.9,
-    image: "images/img-4.png",
+    image: "assets/product-images/img-4.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 400,
     originalPrice: 500,
     rating: 4.9,
-    image: "images/img-4.png",
+    image: "assets/product-images/img-4.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 500,
     rating: 4.9,
-    image: "images/img-6.png",
+    image: "assets/product-images/img-6.png",
   },
   {
     title: "Asus gaming machine for ultra graphics",
     price: 700,
     rating: 4.9,
-    image: "images/img-3.png",
+    image: "assets/product-images/img-3.png",
   },
 ];
 
@@ -134,7 +134,7 @@ exploreOurProducts.forEach((product, productIndex) => {
   ourProducts.innerHTML += `
   <div class="best-product-card our-product-card">
   <div class="our-product-image">
-    <img height="130px" src="${product.image}" alt="product-image">
+    <img loading="lazy" height="130px" src="${product.image}" alt="product-image">
     <div class="add-to-cart-label"><p>Add to cart</p></div>
   </div>
   <div class="our-product-details">

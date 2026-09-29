@@ -15,7 +15,7 @@
     }
   }
 
-  .drop-down-section{
+  .more-product-links{
     display: none;
   }
 
@@ -70,6 +70,9 @@
 
 @media(max-width: 753px)
 {
+  .slider-nav{
+    display: none;
+  }
 
   aside{
     width: 80%;
@@ -172,6 +175,10 @@
 
     .footer-links{
       row-gap: 3rem;
+    }
+
+    .div{
+        font-size: 1rem;
     }
   
   }
